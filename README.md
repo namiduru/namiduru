@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+---
+
 <!--
 **namiduru/namiduru** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +16,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+</br>
+
+😄 Part time life long learner and full time software developer.
+
+🔭 I’m currently working as a front-end developer at the JotForm as a member of the payment team, previosly I have worked at Huawei as a Software Engineer for two years.
+
+📫 You can reach me at mehmetnamiduru@gmail.com
