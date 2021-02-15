@@ -1,24 +1,5 @@
-### 😄 Part time life long learner and full time software developer.
+### 😄 Part time life long learner and full-time software developer.
 
----
+🔭 I’m currently working as a front-end developer at the JotForm, previously I have worked at Huawei as a Software Engineer for two years.
 
-<!--
-**namiduru/namiduru** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-</br>
-
-🔭 I’m currently working as a front-end developer at the JotForm as a member of the payment team, previosly I have worked at Huawei as a Software Engineer for two years.
-
-📫 You can reach me from mehmetnamiduru@gmail.com or https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/
+📫 You can reach me at mehmetnamiduru@gmail.com or https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/
