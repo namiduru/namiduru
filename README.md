@@ -5,7 +5,9 @@
 📫 You can reach me at mehmetnamiduru@gmail.com or https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/
 
 ---
+
 #### My Certificates
+
 [AngularJS](https://github.com/namiduru/namiduru/blob/main/Certificates/angularjs.pdf) -
 [Asynchronous JavaScript](https://github.com/namiduru/namiduru/blob/main/Certificates/async-javascript.pdf) -
 [Complete Flexbox Course](https://github.com/namiduru/namiduru/blob/main/Certificates/css-flexbox.pdf) -
@@ -18,3 +20,9 @@
 [Socket.IO](https://github.com/namiduru/namiduru/blob/main/Certificates/socket-io.pdf) -
 [Understanding TypeScript](https://github.com/namiduru/namiduru/blob/main/Certificates/typescript.pdf) -
 [Optimizing web performance](https://github.com/namiduru/namiduru/blob/main/Certificates/web-performance.pdf)
+[C++ Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/c++-tutorial.pdf)
+[CSS Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/css-fundamentals.pdf)
+[HTML Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/html-fundamentals.pdf)
+[Java Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/java-tutorial.pdf)
+[JavaScript Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/javascript-tutorial.pdf)
+[Jquery Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/jquery-tutorial.pdf)
