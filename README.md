@@ -19,10 +19,10 @@
 [RxJs](https://github.com/namiduru/namiduru/blob/main/Certificates/rxjs.pdf) -
 [Socket.IO](https://github.com/namiduru/namiduru/blob/main/Certificates/socket-io.pdf) -
 [Understanding TypeScript](https://github.com/namiduru/namiduru/blob/main/Certificates/typescript.pdf) -
-[Optimizing web performance](https://github.com/namiduru/namiduru/blob/main/Certificates/web-performance.pdf)
-[C++ Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/c++-tutorial.pdf)
-[CSS Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/css-fundamentals.pdf)
-[HTML Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/html-fundamentals.pdf)
-[Java Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/java-tutorial.pdf)
-[JavaScript Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/javascript-tutorial.pdf)
+[Optimizing web performance](https://github.com/namiduru/namiduru/blob/main/Certificates/web-performance.pdf) -
+[C++ Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/c++-tutorial.pdf) -
+[CSS Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/css-fundamentals.pdf) -
+[HTML Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/html-fundamentals.pdf) -
+[Java Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/java-tutorial.pdf) -
+[JavaScript Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/javascript-tutorial.pdf) -
 [Jquery Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/jquery-tutorial.pdf)
