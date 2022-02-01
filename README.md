@@ -26,4 +26,4 @@
 [Java Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/java-tutorial.pdf) -
 [JavaScript Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/javascript-tutorial.pdf) -
 [Jquery Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/jquery-tutorial.pdf) -
-[Elasticsearch](https://github.com/namiduru/namiduru/blob/main/Certificates/elasticsearch.pdf) -
+[Elasticsearch](https://github.com/namiduru/namiduru/blob/main/Certificates/elasticsearch.pdf)
