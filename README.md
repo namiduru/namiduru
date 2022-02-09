@@ -1,4 +1,4 @@
-🏠 www.namiduru.com
+🏠 https://www.namiduru.com
 
 ### 😄 Part-time life long learner and full-time software developer.
 
