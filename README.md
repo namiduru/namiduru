@@ -31,4 +31,4 @@
 [Elasticsearch](https://github.com/namiduru/namiduru/blob/main/Certificates/elasticsearch.pdf) -
 [AWS S3](https://github.com/namiduru/namiduru/blob/main/Certificates/aws-s3.pdf) -
 [System Desgin Interview](https://github.com/namiduru/namiduru/blob/main/Certificates/system-design-interview.pdf) -
-[NGINX Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/nginx-fundamentals-.pdf)
+[NGINX Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/nginx-fundamentals.pdf)
