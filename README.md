@@ -32,4 +32,5 @@
 [AWS S3](https://github.com/namiduru/namiduru/blob/main/Certificates/aws-s3.pdf) -
 [System Desgin Interview](https://github.com/namiduru/namiduru/blob/main/Certificates/system-design-interview.pdf) -
 [NGINX Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/nginx-fundamentals.pdf) -
-[HAProxy](https://github.com/namiduru/namiduru/blob/main/Certificates/haproxy.pdf)
+[HAProxy](https://github.com/namiduru/namiduru/blob/main/Certificates/haproxy.pdf) -
+[GO](https://github.com/namiduru/namiduru/blob/main/Certificates/go.pdf)
