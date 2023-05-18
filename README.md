@@ -2,7 +2,7 @@
 
 ### 😄 I am a full-time software developer who also enjoys being a part-time lifelong learner.
 
-🔭 I’m working as a JavaScript developer at OSF Digital, previously I have worked at JotForm and Huawei.
+🔭 I hold the position of Senior Full Stack Developer at OSF Digital, where I contribute my expertise in various technologies. Before joining OSF Digital, I had the opportunity to work at JotForm and Huawei, further enhancing my professional experience.
 
 📫 You can reach me at mehmetnamiduru@gmail.com or https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/
 
