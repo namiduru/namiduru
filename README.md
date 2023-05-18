@@ -1,6 +1,6 @@
 🏠 https://www.namiduru.com
 
-### 😄 Part-time life long learner and full-time software developer.
+### 😄 I am a full-time software developer who also enjoys being a part-time lifelong learner.
 
 🔭 I’m working as a JavaScript developer at OSF Digital, previously I have worked at JotForm and Huawei.
 
