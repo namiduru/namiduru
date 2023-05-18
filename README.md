@@ -4,7 +4,7 @@
 
 🔭 I hold the position of Senior Full Stack Developer at OSF Digital, where I contribute my expertise in various technologies. Before joining OSF Digital, I had the opportunity to work at JotForm and Huawei, further enhancing my professional experience.
 
-📫 You can reach me at mehmetnamiduru@gmail.com or https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/
+📫 Feel free to reach out to me at mehmetnamiduru@gmail.com or connect with me on LinkedIn at https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/. I look forward to connecting with you!
 
 ---
 
