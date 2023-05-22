@@ -1,6 +1,6 @@
 🏠 https://www.namiduru.com
 
-### 😄 I am a full-time software developer who also enjoys being a part-time lifelong learner.
+### I am a full-time software developer who also enjoys being a part-time lifelong learner.
 
 🔭 I hold the position of Senior Full Stack Developer at OSF Digital, where I contribute my expertise in various technologies. Before joining OSF Digital, I had the opportunity to work at JotForm and Huawei, further enhancing my professional experience.
 
