@@ -34,4 +34,5 @@
 [NGINX Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/nginx-fundamentals.pdf) -
 [HAProxy](https://github.com/namiduru/namiduru/blob/main/Certificates/haproxy.pdf) -
 [GO](https://github.com/namiduru/namiduru/blob/main/Certificates/go.pdf) -
-[Figma](https://github.com/namiduru/namiduru/blob/main/Certificates/figma-essentials.pdf)
+[Figma](https://github.com/namiduru/namiduru/blob/main/Certificates/figma-essentials.pdf) -
+[Linux Fundementals](https://github.com/namiduru/namiduru/blob/main/Certificates/linux-fundementals.pdf)
