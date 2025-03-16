@@ -1,0 +1,17 @@
+name: Upload to Google Drive
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch name if different
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Upload to Google Drive
+        env:
+          GOOGLE_DRIVE_CREDENTIALS: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
+          FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
