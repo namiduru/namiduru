@@ -20,9 +20,9 @@ jobs:
       - name: Upload to gdrive
         uses: adityak74/google-drive-upload-git-action@main
         with:
-          credentials: ${{ secrets.credentials }}
+          credentials: ${{ GOOGLE_DRIVE_CREDENTIALS }}
           filename: "archive.zip"
-          folderId: ${{ secrets.folderId }}
+          folderId: ${{ GOOGLE_DRIVE_FOLDER_ID }}
           name: "documentation.zip" # optional string
           overwrite: "true" # optional boolean
       - name: Make Directory Structure
@@ -32,8 +32,8 @@ jobs:
       - name: Mirror Directory Structure
         uses: adityak74/google-drive-upload-git-action@main
         with:
-          credentials: ${{ secrets.DRIVE_CREDENTIALS }}
+          credentials: ${{ GOOGLE_DRIVE_CREDENTIALS }}
           filename: w/x/y/z
-          folderId: ${{ secrets.folderId }}
+          folderId: ${{ GOOGLE_DRIVE_FOLDER_ID }}
           overwrite: "true"
           mirrorDirectoryStructure: "true"
