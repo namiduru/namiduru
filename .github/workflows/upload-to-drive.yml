@@ -1,0 +1,80 @@
+name: Upload Certificates to Google Drive
+
+on:
+  push:
+    paths:
+      - "Certificates/**" # Trigger when files in Certificates directory change
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  upload-to-drive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+
+      - name: Create service account credentials
+        run: |
+          echo '${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}' | base64 -d > service-account.json
+
+      - name: Upload to Google Drive
+        run: |
+          python - <<EOF
+          from google.oauth2 import service_account
+          from googleapiclient.discovery import build
+          from googleapiclient.http import MediaFileUpload
+          import os
+
+          # Set up credentials
+          SCOPES = ['https://www.googleapis.com/auth/drive.file']
+          credentials = service_account.Credentials.from_service_account_file(
+              'service-account.json', scopes=SCOPES)
+
+          # Create Drive API service
+          service = build('drive', 'v3', credentials=credentials)
+
+          # Create folder if it doesn't exist
+          folder_metadata = {
+              'name': 'Certificates',
+              'mimeType': 'application/vnd.google-apps.folder'
+          }
+
+          # Check if folder exists
+          results = service.files().list(
+              q="name='Certificates' and mimeType='application/vnd.google-apps.folder'",
+              spaces='drive').execute()
+
+          if not results.get('files'):
+              folder = service.files().create(body=folder_metadata, fields='id').execute()
+              folder_id = folder.get('id')
+          else:
+              folder_id = results.get('files')[0]['id']
+
+          # Upload all files from Certificates directory
+          certificates_dir = 'Certificates'
+          if os.path.exists(certificates_dir):
+              for filename in os.listdir(certificates_dir):
+                  filepath = os.path.join(certificates_dir, filename)
+                  if os.path.isfile(filepath):
+                      file_metadata = {
+                          'name': filename,
+                          'parents': [folder_id]
+                      }
+                      media = MediaFileUpload(filepath, resumable=True)
+                      file = service.files().create(
+                          body=file_metadata,
+                          media_body=media,
+                          fields='id'
+                      ).execute()
+                      print(f'Uploaded {filename} with ID: {file.get("id")}')
+          EOF
