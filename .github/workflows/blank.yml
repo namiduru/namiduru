@@ -1,27 +1,39 @@
-name: Upload to Google Drive
-
-on:
-  push:
-    branches:
-      - main # Change this to your default branch name if different
+# .github/workflows/main.yml
+name: Main
+on: [push]
 
 jobs:
-  upload:
+  my_job:
     runs-on: ubuntu-latest
-    permissions:
-      contents: 'read'
-      id-token: 'write'
+
     steps:
-      - uses: actions/checkout@v3
 
-      - id: 'auth'
-        uses: 'google-github-actions/auth@v1'
-        with:
-          credentials_json: '${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}'
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Upload to Google Drive
-        uses: 'google-github-actions/upload-cloud-storage@v1'
+      - name: Archive files
+        run: |
+          sudo apt-get update
+          sudo apt-get install zip
+          zip -r archive.zip *
+
+      - name: Upload to gdrive
+        uses: adityak74/google-drive-upload-git-action@main
         with:
-          path: './*'  # Adjust this path to match your build output directory
-          destination: '1mS9YKj3iEeTVNEWnGRnf8VMkmO4pTGQc'
-          parent: false
+          credentials: ${{ secrets.credentials }}
+          filename: "archive.zip"
+          folderId: ${{ secrets.folderId }}
+          name: "documentation.zip" # optional string
+          overwrite: "true" # optional boolean
+      - name: Make Directory Structure
+        run: |
+          mkdir -p w/x/y
+          date +%s > w/x/y/z
+      - name: Mirror Directory Structure
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.DRIVE_CREDENTIALS }}
+          filename: w/x/y/z
+          folderId: ${{ secrets.folderId }}
+          overwrite: "true"
+          mirrorDirectoryStructure: "true"
