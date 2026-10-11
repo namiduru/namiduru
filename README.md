@@ -2,7 +2,7 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="./assets/profile-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
-  <img src="./assets/profile-light.svg" alt="Mehmet Namıduru — Senior Full-Stack Engineer & Team Lead, Barcelona, Spain" width="1000">
+  <img src="./assets/profile-light.svg" alt="Mehmet Namıduru — Senior Full-Stack Engineer & Team Lead, Barcelona, Spain" width="720">
 </picture>
 
 <p align="center">
@@ -50,28 +50,6 @@ I'm **Mehmet**, a senior full-stack engineer and team lead based in **Barcelona*
     </td>
   </tr>
 </table>
-
-## Selected public work
-
-Much of my professional work lives in private repositories. These public projects offer a look at how I build across the stack.
-
-### [Earth Pulse](https://github.com/namiduru/earth_pulse_case) ↗
-
-A full-stack file management application with a typed interface, API services and object storage.
-
-<sub><strong>Svelte · TypeScript · FastAPI · MongoDB · MinIO · Docker</strong></sub>
-
-### [GitHub Issues Browser](https://github.com/namiduru/media_markt_case_mn) ↗
-
-A React Native case study for browsing GitHub issues, with GraphQL, debounced search, pagination and network error handling.
-
-<sub><strong>React Native · Expo · TypeScript · GraphQL · Jest</strong></sub>
-
-### [Sports Leagues](https://github.com/namiduru/sporty-sports-leagues) ↗
-
-A sports league explorer with shareable URL filters, cached API data and component tests.
-
-<sub><strong>React · TanStack Query · Tailwind CSS · Vitest</strong></sub>
 
 ## Working toolkit
 
