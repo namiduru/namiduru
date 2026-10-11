@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title description">
+  <title id="title">Mehmet Namıduru</title>
+  <desc id="description">Senior Full Stack Developer based in Barcelona, Spain.</desc>
+  <rect x="0.5" y="0.5" width="999" height="259" rx="8" fill="#f8f7f4" stroke="#e5e2dc"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <path d="M48 45h32" stroke="#997647" stroke-width="3"/>
+    <text x="96" y="50" fill="#59616b" font-size="14" font-weight="600" letter-spacing="2.2">SOFTWARE ENGINEERING</text>
+    <text x="952" y="50" text-anchor="end" fill="#59616b" font-size="14" letter-spacing="1.2">BARCELONA, SPAIN</text>
+    <text x="44" y="139" fill="#192330" font-size="68" font-weight="600" letter-spacing="-2.4">Mehmet Namıduru</text>
+    <text x="48" y="183" fill="#46515e" font-size="25" font-weight="400">Senior Full Stack Developer</text>
+    <path d="M48 215h904" stroke="#ddd9d1"/>
+    <path d="M48 215h64" stroke="#997647" stroke-width="2"/>
+    <text x="48" y="242" fill="#59616b" font-size="13" letter-spacing="1.8">ENERGY / SATELLITE NETWORKS / PAYMENTS</text>
+    <text x="952" y="242" text-anchor="end" fill="#59616b" font-size="13" letter-spacing="1.2">NAMIDURU</text>
+  </g>
+</svg>

@@ -1,38 +1,71 @@
-🏠 https://www.namiduru.com
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-light.svg">
+  <img src="./assets/profile-light.svg" alt="Mehmet Namıduru, Senior Full Stack Developer, Barcelona, Spain" width="1000">
+</picture>
 
-### I am a full-time software developer who also enjoys being a part-time lifelong learner.
+[Website](https://www.namiduru.me) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/) &nbsp;·&nbsp; [Email](mailto:mehmetnamiduru@gmail.com)
 
-🔭 I hold the position of Senior Full Stack Developer at OSF Digital, where I contribute my expertise in various technologies. Before joining OSF Digital, I had the opportunity to work at JotForm and Huawei, further enhancing my professional experience.
+I'm a software developer based in **Barcelona, Spain**. I've been building web applications since 2017, mostly in energy, satellite network management and payments.
 
-📫 Feel free to reach out to me at mehmetnamiduru@gmail.com or connect with me on LinkedIn at https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/. I look forward to connecting with you!
+These days, I work on **OSSO Portal** at **Flatiron / OSSO Energy**, using Next.js, NestJS and AWS. Before that, I worked at **OSF Digital, Jotform and Huawei**.
 
----
+## Work highlights
 
-#### My Certificates
+A few results from my time at OSF Digital and Jotform.
 
-[AngularJS](https://github.com/namiduru/namiduru/blob/main/Certificates/angularjs.pdf) -
-[Asynchronous JavaScript](https://github.com/namiduru/namiduru/blob/main/Certificates/async-javascript.pdf) -
-[Complete Flexbox Course](https://github.com/namiduru/namiduru/blob/main/Certificates/css-flexbox.pdf) -
-[Cypress](https://github.com/namiduru/namiduru/blob/main/Certificates/cypress.pdf) -
-[Unit testing you Javascript with jasmine](https://github.com/namiduru/namiduru/blob/main/Certificates/jasmine.pdf) -
-[Functional Programming with JavaScript](https://github.com/namiduru/namiduru/blob/main/Certificates/javascript-functional-programming.pdf) -
-[Openlayers](https://github.com/namiduru/namiduru/blob/main/Certificates/open-layers.pdf) -
-[Productivity and Time Management](https://github.com/namiduru/namiduru/blob/main/Certificates/productivity.pdf) -
-[RxJs](https://github.com/namiduru/namiduru/blob/main/Certificates/rxjs.pdf) -
-[Socket.IO](https://github.com/namiduru/namiduru/blob/main/Certificates/socket-io.pdf) -
-[Understanding TypeScript](https://github.com/namiduru/namiduru/blob/main/Certificates/typescript.pdf) -
-[Optimizing web performance](https://github.com/namiduru/namiduru/blob/main/Certificates/web-performance.pdf) -
-[C++ Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/c++-tutorial.pdf) -
-[CSS Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/css-fundamentals.pdf) -
-[HTML Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/html-fundamentals.pdf) -
-[Java Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/java-tutorial.pdf) -
-[JavaScript Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/javascript-tutorial.pdf) -
-[Jquery Tutorial](https://github.com/namiduru/namiduru/blob/main/Certificates/jquery-tutorial.pdf) -
-[Elasticsearch](https://github.com/namiduru/namiduru/blob/main/Certificates/elasticsearch.pdf) -
-[AWS S3](https://github.com/namiduru/namiduru/blob/main/Certificates/aws-s3.pdf) -
-[System Desgin Interview](https://github.com/namiduru/namiduru/blob/main/Certificates/system-design-interview.pdf) -
-[NGINX Fundamentals](https://github.com/namiduru/namiduru/blob/main/Certificates/nginx-fundamentals.pdf) -
-[HAProxy](https://github.com/namiduru/namiduru/blob/main/Certificates/haproxy.pdf) -
-[GO](https://github.com/namiduru/namiduru/blob/main/Certificates/go.pdf) -
-[Figma](https://github.com/namiduru/namiduru/blob/main/Certificates/figma-essentials.pdf) -
-[Linux Fundementals](https://github.com/namiduru/namiduru/blob/main/Certificates/linux-fundementals.pdf)
+| Result | What changed |
+| :--- | :--- |
+| **25,000+ terminals** | I reworked a live OpenLayers map that previously handled fewer than 500 terminals. It could then render over 25,000 without blocking the main thread. |
+| **~90% fewer test failures** | I moved nightly sanity tests to Cypress. Test failures dropped by about 90%, and the average run was nearly 30 minutes shorter. |
+| **20.05% performance gain** | I built a custom caching mechanism that improved average performance in our satellite network management applications. |
+| **30+ payment gateways** | I built a system for monitoring transaction logs across Jotform's payment gateways. |
+
+## Experience
+
+**Flatiron / OSSO Energy**<br>November 2025 to present
+
+I work on OSSO Portal for the German market, building Next.js features and NestJS services on AWS.
+
+**OSF Digital**<br>July 2021 to November 2025
+
+I worked on **ST Engineering iDirect's Pulse project**, a satellite network management platform. My work included map performance, backend services and automated tests. I also took on Security Champion responsibilities.
+
+**Jotform, Payment Team**<br>June 2019 to July 2021
+
+I worked on payment integrations and Strong Customer Authentication for several gateways. I also built transaction monitoring tools and helped improve how sensitive data was handled.
+
+**Huawei**<br>April 2017 to June 2019
+
+I built interfaces for a knowledge graph research project and worked on Web LMT, a wireless network maintenance application using Java and JavaScript.
+
+## Technologies
+
+| Area | Technologies |
+| :--- | :--- |
+| **Front end** | TypeScript, Next.js, React, Angular, React Native |
+| **Back end & data** | NestJS, Node.js, Python, PostgreSQL, MongoDB, Redis |
+| **Infrastructure** | AWS, Docker, Nginx, HAProxy, Jenkins |
+| **Testing & APIs** | Cypress, Jasmine, Jest, GraphQL, OpenAPI, Socket.IO |
+
+## Education
+
+I studied Computer Engineering at **Çankaya University** and graduated in 2016.
+
+<details>
+  <summary>Course certificates</summary>
+
+- [System Design Interview](./Certificates/system-design-interview.pdf)
+- [Understanding TypeScript](./Certificates/typescript.pdf)
+- [Optimizing Web Performance](./Certificates/web-performance.pdf)
+- [Cypress](./Certificates/cypress.pdf)
+- [AWS S3](./Certificates/aws-s3.pdf)
+- [NGINX Fundamentals](./Certificates/nginx-fundamentals.pdf)
+
+[All course certificates](./Certificates/README.md)
+
+</details>
+
+## Contact
+
+[mehmetnamiduru@gmail.com](mailto:mehmetnamiduru@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/)
