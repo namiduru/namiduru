@@ -1,71 +1,126 @@
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="./assets/profile-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-light.svg">
-  <img src="./assets/profile-light.svg" alt="Mehmet Namıduru, Senior Full Stack Developer, Barcelona, Spain" width="1000">
+  <img src="./assets/profile-light.svg" alt="Mehmet Namıduru — Senior Full-Stack Engineer & Team Lead, Barcelona, Spain" width="1000">
 </picture>
 
-[Website](https://www.namiduru.me) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/) &nbsp;·&nbsp; [Email](mailto:mehmetnamiduru@gmail.com)
+<p align="center">
+  <a href="https://www.namiduru.me">Website</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="./mehmet_namiduru_resume.pdf">Résumé</a> &nbsp; / &nbsp;
+  <a href="mailto:mehmetnamiduru@gmail.com">Email</a>
+</p>
 
-I'm a software developer based in **Barcelona, Spain**. I've been building web applications since 2017, mostly in energy, satellite network management and payments.
+## Thoughtful interfaces. Dependable systems.
 
-These days, I work on **OSSO Portal** at **Flatiron / OSSO Energy**, using Next.js, NestJS and AWS. Before that, I worked at **OSF Digital, Jotform and Huawei**.
+I'm **Mehmet**, a senior full-stack engineer and team lead based in **Barcelona**. Since 2017, I've been building software for energy, satellite networks and payments — working across product interfaces, back-end services and cloud infrastructure.
 
-## Work highlights
+**Now** · Leading full-stack development of **OSSO Portal** at **Flatiron / OSSO Energy**, building for the German market with Next.js, NestJS and AWS.
 
-A few results from my time at OSF Digital and Jotform.
+**Previously** · OSF Digital / ST Engineering iDirect · Jotform · Huawei
 
-| Result | What changed |
-| :--- | :--- |
-| **25,000+ terminals** | I reworked a live OpenLayers map that previously handled fewer than 500 terminals. It could then render over 25,000 without blocking the main thread. |
-| **~90% fewer test failures** | I moved nightly sanity tests to Cypress. Test failures dropped by about 90%, and the average run was nearly 30 minutes shorter. |
-| **20.05% performance gain** | I built a custom caching mechanism that improved average performance in our satellite network management applications. |
-| **30+ payment gateways** | I built a system for monitoring transaction logs across Jotform's payment gateways. |
+## Selected impact
 
-## Experience
+<sub>Results from my work at OSF Digital and Jotform.</sub>
 
-**Flatiron / OSSO Energy**<br>November 2025 to present
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>25,000+</h3>
+      <strong>Live network terminals</strong>
+      <p>Scaled an OpenLayers map from fewer than 500 terminals, keeping the main thread responsive.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>~90%</h3>
+      <strong>Fewer nightly test failures</strong>
+      <p>Moved sanity tests to Cypress; average runs finished nearly 30 minutes sooner.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>+20.05%</h3>
+      <strong>Average performance gain</strong>
+      <p>Improved satellite network management applications with a custom caching mechanism.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>30+</h3>
+      <strong>Payment gateways monitored</strong>
+      <p>Built transaction log monitoring across Jotform's payment integrations.</p>
+    </td>
+  </tr>
+</table>
 
-I work on OSSO Portal for the German market, building Next.js features and NestJS services on AWS.
+## Selected public work
 
-**OSF Digital**<br>July 2021 to November 2025
+Much of my professional work lives in private repositories. These public projects offer a look at how I build across the stack.
 
-I worked on **ST Engineering iDirect's Pulse project**, a satellite network management platform. My work included map performance, backend services and automated tests. I also took on Security Champion responsibilities.
+### [Earth Pulse](https://github.com/namiduru/earth_pulse_case) ↗
 
-**Jotform, Payment Team**<br>June 2019 to July 2021
+A full-stack file management application with a typed interface, API services and object storage.
 
-I worked on payment integrations and Strong Customer Authentication for several gateways. I also built transaction monitoring tools and helped improve how sensitive data was handled.
+<sub><strong>Svelte · TypeScript · FastAPI · MongoDB · MinIO · Docker</strong></sub>
 
-**Huawei**<br>April 2017 to June 2019
+### [GitHub Issues Browser](https://github.com/namiduru/media_markt_case_mn) ↗
 
-I built interfaces for a knowledge graph research project and worked on Web LMT, a wireless network maintenance application using Java and JavaScript.
+A React Native case study for browsing GitHub issues, with GraphQL, debounced search, pagination and network error handling.
 
-## Technologies
+<sub><strong>React Native · Expo · TypeScript · GraphQL · Jest</strong></sub>
 
-| Area | Technologies |
-| :--- | :--- |
-| **Front end** | TypeScript, Next.js, React, Angular, React Native |
-| **Back end & data** | NestJS, Node.js, Python, PostgreSQL, MongoDB, Redis |
-| **Infrastructure** | AWS, Docker, Nginx, HAProxy, Jenkins |
-| **Testing & APIs** | Cypress, Jasmine, Jest, GraphQL, OpenAPI, Socket.IO |
+### [Sports Leagues](https://github.com/namiduru/sporty-sports-leagues) ↗
 
-## Education
+A sports league explorer with shareable URL filters, cached API data and component tests.
 
-I studied Computer Engineering at **Çankaya University** and graduated in 2016.
+<sub><strong>React · TanStack Query · Tailwind CSS · Vitest</strong></sub>
+
+## Working toolkit
+
+- **Interfaces** · TypeScript · React · Next.js · Angular · React Native
+- **Services & data** · Node.js · NestJS · Python · PostgreSQL · MongoDB · Redis
+- **Delivery & quality** · AWS · Docker · Cypress · Jest · Jenkins
+
+<br>
 
 <details>
-  <summary>Course certificates</summary>
+  <summary><strong>Career & education</strong></summary>
+
+<br>
+
+| Role | Team / product | Period |
+| :--- | :--- | :--- |
+| **Team Lead** | Flatiron / OSSO Energy — OSSO Portal | Nov 2025–present |
+| **Senior Full-Stack Developer** | OSF Digital — ST Engineering iDirect Pulse | Jul 2021–Nov 2025 |
+| **Front-End Developer** | Jotform — Payment Team | Jun 2019–Jul 2021 |
+| **Software Engineer** | Huawei — Knowledge Graph & Web LMT | Apr 2017–Jun 2019 |
+
+At OSF Digital, I also served as **Security Champion**. At Jotform, my work included **Strong Customer Authentication**, payment integrations and safer handling of sensitive data.
+
+**B.Sc. in Computer Engineering** · Çankaya University · 2016
+
+[View my résumé](./mehmet_namiduru_resume.pdf)
+
+</details>
+
+<details>
+  <summary><strong>Continuous learning & certificates</strong></summary>
+
+<br>
+
+A selection of completed courses in architecture, performance and testing:
 
 - [System Design Interview](./Certificates/system-design-interview.pdf)
-- [Understanding TypeScript](./Certificates/typescript.pdf)
 - [Optimizing Web Performance](./Certificates/web-performance.pdf)
+- [Understanding TypeScript](./Certificates/typescript.pdf)
 - [Cypress](./Certificates/cypress.pdf)
 - [AWS S3](./Certificates/aws-s3.pdf)
 - [NGINX Fundamentals](./Certificates/nginx-fundamentals.pdf)
 
-[All course certificates](./Certificates/README.md)
+[Browse all course certificates →](./Certificates/README.md)
 
 </details>
 
-## Contact
+---
 
-[mehmetnamiduru@gmail.com](mailto:mehmetnamiduru@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mehmet-nam%C4%B1duru-a0179a123/)
+**Let's build something useful.**
+
+For engineering conversations and collaboration: [mehmetnamiduru@gmail.com](mailto:mehmetnamiduru@gmail.com)

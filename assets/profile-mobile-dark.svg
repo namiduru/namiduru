@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title description">
+  <title id="title">Mehmet Namıduru — Senior Full-Stack Engineer &amp; Team Lead</title>
+  <desc id="description">Based in Barcelona, Spain. Building software for energy, satellite networks and payments. Mobile layout with a subtle animated network signal.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0d131d"/>
+      <stop offset="1" stop-color="#142235"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#7187a0" fill-opacity="0.12"/>
+    </pattern>
+    <clipPath id="frame"><rect width="640" height="360" rx="16"/></clipPath>
+    <style>
+      .signal { animation: flow 16s linear infinite; }
+      @keyframes flow { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: reduce) { .signal { animation: none; stroke-dasharray: none; opacity: 0.2; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="640" height="360" fill="url(#surface)"/>
+    <rect x="380" width="260" height="360" fill="url(#grid)"/>
+    <circle cx="496" cy="152" r="88" fill="none" stroke="#a8c3df" stroke-opacity="0.1"/>
+    <circle cx="496" cy="152" r="68" fill="none" stroke="#a8c3df" stroke-opacity="0.12" stroke-dasharray="2 8"/>
+    <g fill="none" stroke="#55738c" stroke-width="1.4" stroke-opacity="0.45">
+      <path d="M406 104H450Q464 104 464 90V83Q464 72 478 72H526Q540 72 540 86V110Q540 124 554 124H586"/>
+      <path d="M406 198H440Q454 198 454 184V178Q454 164 468 164H554Q568 164 568 178V196Q568 208 580 208H606"/>
+    </g>
+    <path class="signal" d="M406 104H450Q464 104 464 90V83Q464 72 478 72H526Q540 72 540 86V110Q540 124 554 124H586" fill="none" stroke="#70e3c1" stroke-width="2" stroke-linecap="round" pathLength="100" stroke-dasharray="5 95"/>
+    <g fill="#142235" stroke="#70e3c1" stroke-width="1.5">
+      <circle cx="406" cy="104" r="3.5"/>
+      <circle cx="586" cy="124" r="3.5"/>
+      <circle cx="406" cy="198" r="3.5"/>
+      <circle cx="606" cy="208" r="3.5"/>
+    </g>
+    <rect x="466" y="122" width="60" height="60" rx="18" fill="#111e2b" stroke="#70e3c1" stroke-opacity="0.3"/>
+    <text x="496" y="160" text-anchor="middle" fill="#cdece3" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="21" letter-spacing="1">MN</text>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="32" y="40" fill="#70e3c1" font-size="15" font-weight="600" letter-spacing="2">MN / SOFTWARE ENGINEERING</text>
+      <path d="M32 60H608" stroke="#90aecb" stroke-opacity="0.13"/>
+      <text x="29" y="127" fill="#f0f4f8" font-size="60" font-weight="650" letter-spacing="-2">Mehmet</text>
+      <text x="29" y="195" fill="#f0f4f8" font-size="68" font-weight="650" letter-spacing="-2.5">Namıduru</text>
+      <text x="32" y="244" fill="#bbc9da" font-size="25">Senior Full-Stack Engineer</text>
+      <text x="32" y="278" fill="#95a8bf" font-size="21">Team Lead · Barcelona, Spain</text>
+      <path d="M32 306H608" stroke="#90aecb" stroke-opacity="0.16"/>
+      <path d="M32 306H88" stroke="#70e3c1" stroke-width="2"/>
+      <text x="32" y="336" fill="#95a8bf" font-size="13" letter-spacing="1.2">ENERGY / SATELLITE NETWORKS / PAYMENTS</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="15.5" fill="none" stroke="#2a3a4e"/>
+</svg>
